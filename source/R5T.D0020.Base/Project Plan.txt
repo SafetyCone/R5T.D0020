@@ -1,0 +1,4 @@
+R5T.D0020.Base - Base definition library for the IVisualStudioProjectFileValueEqualityComparer service. Async, R5T.T0002.IVisualStudioProjectFile, R5T.D0016, and R5T.D0010-based.
+
+Goals
+
