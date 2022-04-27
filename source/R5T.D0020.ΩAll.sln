@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.D0020.Construction", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.D0020.Default", "R5T.D0020.Default\R5T.D0020.Default.csproj", "{DB9FBD81-99F5-4D7F-AFB4-F02565C12D3F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{B0F55175-1389-4AF2-A251-33D8F89A2821}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{0A805D93-986E-4B38-BE1F-512EE107EC72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +76,20 @@ Global
 		{DB9FBD81-99F5-4D7F-AFB4-F02565C12D3F}.Release|x64.Build.0 = Release|Any CPU
 		{DB9FBD81-99F5-4D7F-AFB4-F02565C12D3F}.Release|x86.ActiveCfg = Release|Any CPU
 		{DB9FBD81-99F5-4D7F-AFB4-F02565C12D3F}.Release|x86.Build.0 = Release|Any CPU
+		{0A805D93-986E-4B38-BE1F-512EE107EC72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A805D93-986E-4B38-BE1F-512EE107EC72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A805D93-986E-4B38-BE1F-512EE107EC72}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0A805D93-986E-4B38-BE1F-512EE107EC72}.Debug|x64.Build.0 = Debug|Any CPU
+		{0A805D93-986E-4B38-BE1F-512EE107EC72}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0A805D93-986E-4B38-BE1F-512EE107EC72}.Debug|x86.Build.0 = Debug|Any CPU
+		{0A805D93-986E-4B38-BE1F-512EE107EC72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A805D93-986E-4B38-BE1F-512EE107EC72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A805D93-986E-4B38-BE1F-512EE107EC72}.Release|x64.ActiveCfg = Release|Any CPU
+		{0A805D93-986E-4B38-BE1F-512EE107EC72}.Release|x64.Build.0 = Release|Any CPU
+		{0A805D93-986E-4B38-BE1F-512EE107EC72}.Release|x86.ActiveCfg = Release|Any CPU
+		{0A805D93-986E-4B38-BE1F-512EE107EC72}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A805D93-986E-4B38-BE1F-512EE107EC72} = {B0F55175-1389-4AF2-A251-33D8F89A2821}
 	EndGlobalSection
 EndGlobal

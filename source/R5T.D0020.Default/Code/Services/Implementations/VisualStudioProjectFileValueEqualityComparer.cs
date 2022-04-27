@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -6,12 +6,12 @@ using R5T.D0001;
 using R5T.D0010;
 using R5T.D0010.Default;
 using R5T.T0002;
-using R5T.T0003;
+using R5T.T0003;using R5T.T0064;
 
 
 namespace R5T.D0020.Default
-{
-    public class VisualStudioProjectFileValueEqualityComparer : IVisualStudioProjectFileValueEqualityComparer
+{[ServiceImplementationMarker]
+    public class VisualStudioProjectFileValueEqualityComparer : IVisualStudioProjectFileValueEqualityComparer,IServiceImplementation
     {
         private INowUtcProvider NowUtcProvider { get; }
 
